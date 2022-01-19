@@ -1,5 +1,7 @@
 # Cifra de César
-
+<!-- O produto foi idealizado pensando em pessoas que tem dificuldade em criar senhas fortes e seguras
+O objetivo do usuário é criar uma senha segura de forma prática.
+o usuário encontra facilidade e segurança para criar uma senha, evitando repetir senhas já utilizadas (que aumentam inseguranças) e evitando utilizar as tradicionais datas de nascimento e nomes conhecidos (que também aumenta riscos)>
 ## Índice
 
 - [1. Prefácio](#1-prefácio)
