@@ -2,35 +2,151 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Safetymail</title>
+    <title>Senha segura</title>
     <link rel="stylesheet" href="style.css" />
+      
   </head>
   
   <body>
-    <div>
-      <header>
-        <h1 style=  "color: blue; background-color: cornsilk; border: 50px solid blue;"> Safatymail</h1>
+  
+    
+    <header>
+<div class="header">
+      
+     <h1> Senha Segura</h1>
+     <hr>
+     <h2>Codificando sua senha</h2>
+        
       </header>
-      <hr>
-    </div>
-      <header>
-        <h1> Codificar Senha</h1>
-      </header>
-      <div>
-      <p>1) Escolha o Offset (quantas posições de deslocamento)</p>
-      <!--aqui tenho que colocar uma caixa vazia para o usuário digitar, ainda não sei como fazer-->
+</div>
 
-      <p>2)Digite a senha a ser codificada,<em>o número máximo de caracteres é x, devem ser apenas letras.</em> </p>
-      <!--também inserir caixa vazia para texto-->
+<div class="input">
+      <main>
 
-      <p>3) Executar a criptação da senha (<em>pressione o botão abaixo para iniciar a processo de codificação da senha</em>)</p>
-      <!--aqui iniciar JS, preciso crior o botão com a função de codificar-->
-    </div>
+      <form>
+        <label for= "offset">1) Escolha uma chave de segurança
+      
+        </label>
+
+          <input
+          type="number"
+          id="offset"
+          placeholder="chave de segurança"
+          name= "offset"
+          required
+          min="0"
+          max="26"
+          />
+        </form>
+        <button type="submit">Enviar</button>
+     
+      
+    
+
+      <form>
+        <label for= "password1"> 2) Digite a senha para ser cifrada. 
+          <p> <em devem ser apenas letras, 
+          pressione o botão abaixo para iniciar o processo de codificação.></em> </p> 
+    
+        </label>
+
+      <input
+        type="password"
+        size="10"
+        id="password1"
+        placeholder="Digite aqui!"
+        name= "password1"
+        required
+      >
+      </form>
+      <button type="submit">Cifrar</button>
+   
+    
+
+      <form>
+    
+        <label for= "password_cipher"> 
+        <p>3)Selecione e copie a senha cifrada.</p>
+    
+        </label>
+
+        <input 
+        type= "password"
+        size="10"
+        id="password_cipher"
+        placeholder="Copie e cole!"
+        name= "password_cipher"
+        >
+    
+       </form>
+
+      <form>
+        <label for= "password2">
+        <p>4)Insira senha para ser decifrada</p>
+      
+        </label>
+
+          <input
+          type="password"
+          size="10"
+          id="password2"
+          placeholder="Digite aqui!"
+          name= "password2"
+          required
+          />
+      </form>
+        <button type="submit">Decifrar</button>
+     
+
+      <form>
+        <label for= "password_deciphered">
+        <p>5) Selecione e copie a senha decifrada.</p>
+      
+        </label>
+  
+          <input 
+          type= "password"
+          size="10"
+          id="password_deciphered"
+          placeholder="Copie e cole!"
+          name= "password_deciphered"
+        >
+        </form>
+    
+    
+    
+    
+    
+    </main>
+</div>
+  
+
     <script src="index.js" type="module"></script>
     <scrip type= "text/javascript">
       
 
-    </scrip>
+      
+      
+    <!-- COLUNA LATERAL DIREITA COM INFORMAÇÕES DO APP QUE NÃO CONSEGUI AJUSTAR AINDA    
+      <aside>
+        <div class="aside">
+        <table>
+         <p> Nos dias atuais o termo </p>
+        <p>encriptação ou criptografia</p>
+         <p>de dados tem sido muito citado</p>
+         <p> em diferentes contextos</p>
+         <p>Isso ocorre principalmente porque </p>
+          <p>com o avanço das tecnologias</p>
+        <p>manter a segurança dos dados está sendo cada vez mais difícil</p>
+      <p>A encriptação de dados é grande aliada na proteção de informações</p> 
+        
+         
+        </table> 
+        </aside>
+      -->
+            
 
+    </scrip>
+  
   </body>
 </html>
