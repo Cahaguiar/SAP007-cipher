@@ -36,7 +36,7 @@ const cipher = {// ...função cifrar
       let codigoA= 65;
       let codigoZ= 90;
       if (codigoASC2>=65 && codigoASC2 <=codigoZ){
-        let decifrar= (codigoASC2 - codigoA + offsetdecode) % 26 + codigoA;
+        let decifrar= (codigoASC2 + codigoA - offsetdecode) % 26 + codigoA;
         console.log(decifrar)
         resultadoDecifra = resultadoDecifra + String.fromCharCode(decifrar)
       }

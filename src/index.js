@@ -30,8 +30,9 @@ const senhaDecifrada= document.getElementById("password_deciphered")
 
 function decodificarButton() {
     const offSetvalue2 = offsetdecode.valueAsNumber;
-    const senhaParaDecifrarvalue2= senhaDecifrada.value;
-    senhaDecifrada.value = cipher.decode (offSetvalue2, senhaParaDecifrarvalue2)
+    const senhaParaDecifrarvalue2= senhaParaDecifrar.value;
+    console.log(offSetvalue2, senhaParaDecifrarvalue2)
+    senhaDecifrada.value = cipher.decode(offSetvalue2, senhaParaDecifrarvalue2)
 
 }
 
