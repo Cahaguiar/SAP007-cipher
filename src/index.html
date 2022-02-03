@@ -30,18 +30,16 @@
 
           <input
           type="number"
-          id="offset"
+          id="offset-encode"
           placeholder="chave de segurança"
           name= "offset"
           required
-          min="0"
-          max="26"
+          min="1"
+          max="25"
           />
         </form>
-        <button type="submit">Enviar</button>
-     
       
-    
+     
 
       <form>
         <label for= "password1"> 2) Digite a senha para ser cifrada. 
@@ -51,7 +49,7 @@
         </label>
 
       <input
-        type="password"
+        type="text"
         size="10"
         id="password1"
         placeholder="Digite aqui!"
@@ -59,7 +57,7 @@
         required
       >
       </form>
-      <button type="submit">Cifrar</button>
+      <button id="btnCifrar">Cifrar</button>
    
     
 
@@ -71,7 +69,7 @@
         </label>
 
         <input 
-        type= "password"
+        type= "text"
         size="10"
         id="password_cipher"
         placeholder="Copie e cole!"
@@ -80,14 +78,30 @@
     
        </form>
 
-      <form>
-        <label for= "password2">
-        <p>4)Insira senha para ser decifrada</p>
+       <form>
+        <label for= "offsetdecode">4) Escolha uma chave de segurança
       
         </label>
 
           <input
-          type="password"
+          type="number"
+          id="offset-decode"
+          placeholder="chave de segurança"
+          name= "offsetdecode"
+          required
+          min="1"
+          max="25"
+          />
+        </form>
+
+      <form>
+        <label for= "password2">
+        <p>5)Insira senha para ser decifrada</p>
+      
+        </label>
+
+          <input
+          type="text"
           size="10"
           id="password2"
           placeholder="Digite aqui!"
@@ -95,17 +109,17 @@
           required
           />
       </form>
-        <button type="submit">Decifrar</button>
+        <button id="btndecifrar">Decifrar</button>
      
 
       <form>
         <label for= "password_deciphered">
-        <p>5) Selecione e copie a senha decifrada.</p>
+        <p>6) Selecione e copie a senha decifrada.</p>
       
         </label>
   
           <input 
-          type= "password"
+          type= "text"
           size="10"
           id="password_deciphered"
           placeholder="Copie e cole!"
@@ -122,7 +136,7 @@
   
 
     <script src="index.js" type="module"></script>
-    <scrip type= "text/javascript">
+ 
       
 
       
@@ -146,7 +160,7 @@
       -->
             
 
-    </scrip>
+  
   
   </body>
 </html>
