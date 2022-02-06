@@ -19,14 +19,14 @@ const cipher = {// ...função cifrar
 
     
     }
-    console.log (resultadoCifra)
+    
     return resultadoCifra;
 
 
   },
 
   decode(offsetdecode, senhaParaDecifrar){
-  console.log(offsetdecode, senhaParaDecifrar)
+  
 
   let quantidadeDeletras2= senhaParaDecifrar.length;
   let resultadoDecifra= "";
@@ -37,11 +37,11 @@ const cipher = {// ...função cifrar
       let codigoZ= 90;
       if (codigoASC2>=65 && codigoASC2 <=codigoZ){
         let decifrar= (codigoASC2 + codigoA - offsetdecode) % 26 + codigoA;
-        console.log(decifrar)
+        
         resultadoDecifra = resultadoDecifra + String.fromCharCode(decifrar)
       }
   }
-  console.log (resultadoDecifra)
+  
   return resultadoDecifra;
   }
 

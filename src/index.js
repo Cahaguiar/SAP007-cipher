@@ -1,7 +1,5 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
-
 const offSet= document.getElementById("offset-encode");
 
 const senhaParaCifrar= document.getElementById("password1");
@@ -31,7 +29,7 @@ const senhaDecifrada= document.getElementById("password_deciphered")
 function decodificarButton() {
     const offSetvalue2 = offsetdecode.valueAsNumber;
     const senhaParaDecifrarvalue2= senhaParaDecifrar.value;
-    console.log(offSetvalue2, senhaParaDecifrarvalue2)
+    
     senhaDecifrada.value = cipher.decode(offSetvalue2, senhaParaDecifrarvalue2)
 
 }
