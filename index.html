@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Senha segura</title>
+    <link rel="stylesheet" href="style.css" />
+      
+  </head>
+  
+  <body>
+  
+  <div class="header">
+    <header>
+
+  
+     <h1> Senha Segura</h1>
+     <hr>
+     <h2>Codificando sua senha</h2>
+        
+    </header>
+  </div>
+
+    <div class="input">
+      <main>
+
+      <form>
+        <label for= "offset">
+          <p>1) Escolha uma chave de segurança.</p>
+      
+        </label>
+
+          <input
+          type="number"
+          id="offset-encode"
+          placeholder="chave de segurança"
+          name= "offset"
+          required
+          min="1"
+          max="25"
+          >
+        </form>
+      
+     
+
+      <form>
+        <label for= "password1"> 
+          
+       <p>2) Digite a senha para ser cifrada.</p> 
+    
+        </label>
+
+      <input
+        type="text"
+        size="10"
+        id="password1"
+        placeholder="Digite aqui!"
+        name= "password1"
+        required
+      >
+      </form>
+      <button id="btnCifrar">Cifrar</button>
+   
+    
+
+      <form>
+    
+        <label for= "password_cipher"> 
+        
+        <p>3)Selecione e copie a senha cifrada.</p>
+    
+        </label>
+
+        <input 
+        type= "text"
+        size="10"
+        id="password_cipher"
+        placeholder="Copie e cole!"
+        name= "password_cipher"
+        >
+    
+       </form>
+
+      
+      
+       
+       <form>
+        <label for= "offsetdecode">
+         <p> 4) Escolha uma chave de segurança</p> 
+      
+        </label>
+
+          <input
+          type="number"
+          id="offset-decode"
+          placeholder="chave de segurança"
+          name= "offsetdecode"
+          required
+          min="1"
+          max="25"
+          />
+        </form>
+
+      <form>
+        <label for= "password2">
+        
+          <p>5)Insira senha para ser decifrada</p>
+      
+        </label>
+
+          <input
+          type="text"
+          size="10"
+          id="password2"
+          placeholder="Digite aqui!"
+          name= "password2"
+          required
+          />
+      </form>
+        <button id="btndecifrar">Decifrar</button>
+     
+
+      <form>
+        <label for= "password_deciphered">
+        
+          <p>6) Selecione e copie a senha decifrada.</p>
+      
+        </label>
+  
+          <input 
+          type= "text"
+          size="10"
+          id="password_deciphered"
+          placeholder="Copie e cole!"
+          name= "password_deciphered"
+        >
+      </form>
+      </div>
+    
+    
+    
+    
+    </main>
+</div>
+  
+
+    <script src="index.js" type="module"></script>
+ 
+      
+
+      
+      
+    <!-- COLUNA LATERAL DIREITA COM INFORMAÇÕES DO APP QUE NÃO CONSEGUI AJUSTAR AINDA    
+      <aside>
+        <div class="aside">
+        <table>
+         <p> Nos dias atuais o termo </p>
+        <p>encriptação ou criptografia</p>
+         <p>de dados tem sido muito citado</p>
+         <p> em diferentes contextos</p>
+         <p>Isso ocorre principalmente porque </p>
+          <p>com o avanço das tecnologias</p>
+        <p>manter a segurança dos dados está sendo cada vez mais difícil</p>
+      <p>A encriptação de dados é grande aliada na proteção de informações</p> 
+        
+         
+        </table> 
+        </aside>
+      -->
+            
+
+  
+  
+  </body>
+</html>
