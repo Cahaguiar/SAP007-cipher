@@ -36,6 +36,8 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do projeto
 
+Este projeto foi a minha primeira criação web no bootcamp Laboratória, nela o usuário poderá cifrar e decifrar senhas, o tema foi idealizado trazendo o cotidiado onde há um necessidade de criar logins e senhas a todo instante, pensando na dificuldade de criar senhas fortes e seguras, trouxe para o projeto Cifra uma página Web onde o usuário pode escolher senhas de fácil memorização consideradas fracas, e torna-las fortes realizado o processo de cifragem.  
+
 
 <!-- O produto foi idealizado pensando em pessoas que tem dificuldade em criar senhas fortes e seguras
 O objetivo do usuário é criar uma senha segura de forma prática.
@@ -83,8 +85,8 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
 ## 2. Resumo do projeto
 
-Neste projeto você criará a primeira aplicação web do _bootcamp_. Nela o usuário
-poderá cifrar e decifrar um texto indicando a chave de deslocamento (_offset_).
+Este projeto foi a minha primeira criação web no bootcamp Laboratória, nela o usuário poderá cifrar e decifrar senhas, o tema foi idealizado trazendo o cotidiado onde há um necessidade de criar logins e senhas a todo instante, pensando na dificuldade de criar senhas fortes e seguras, trouxe para o projeto Cifra uma página Web onde o usuário pode escolher senhas de fácil memorização consideradas fracas, e torna-las fortes realizado o processo de cifragem.  
+
 
 O tema é livre. Você deve pensar em alguma situação de vida real em que seja
 necessário cifrar uma mensagem e pensar em como deve ser a experiência do
