@@ -1,4 +1,16 @@
 # Cifra de César
+<h1> <strong> Cifra de Cesar</strong></h1>
+<hr>
+<h2> Indice </h2>
+<hr>
+<p>1. Prefácio</p>
+<p>2. Projeto</p>
+<p>3. Funcionamento</p>
+<p>4. Considerações finais</p>
+
+
+
+
 <!-- O produto foi idealizado pensando em pessoas que tem dificuldade em criar senhas fortes e seguras
 O objetivo do usuário é criar uma senha segura de forma prática.
 o usuário encontra facilidade e segurança para criar uma senha, podendo criar senhas fáceis de lembrar consideradas fracas, porem cifradas se tornam fortes.
@@ -363,7 +375,7 @@ Nas regras/guias de estilo usaremos das recomendações padrão tanto para o
    versão completa do [Cmder](https://cmder.net/) que já inclui o Git bash.
    Se tiver o Windows 10 ou superior,
    pode usar o [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Faça seu próprio 🍴
+3. Faça seu próprio 
    [fork](https://help.github.com/articles/fork-a-repo/) do repositório.
 4. ⬇️ [Clone](https://help.github.com/articles/cloning-a-repository/)
    o \_fork* para seu computador (cópia local).
