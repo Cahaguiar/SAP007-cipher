@@ -1,10 +1,73 @@
-# Cifra de César
-<h2> Indice </h2>
+# Primeiro Projeto Laboratória : foguete : 
+##  Índice
+1.  Cifra de Cesar - Projeto Escolhido
+2.  Meu Projeto
+3. Como usar
+4. Tecnologias utilizadas
 
-<p>1. Prefácio</p>
-<p>2. Projeto</p>
-<p>3. Funcionamento</p>
-<p>4. Considerações finais</p>
+##  1. **Cifra de César**
+A cifra de César é uma das técnicas mais simples de cifrar uma mensagem.
+É um tipo de cifra por substituição, em que cada letra do texto original é substituída por outra
+que se encontra um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.
+
+##  2. **Meu Projeto - Senha Segura**
+Crie o produto Senha Segura, uma página Web onde o usuário poderá cifrar e decifrar senhas,
+o tema foi idealizado trazendo o cotidiado onde há uma necessidade de criar logins e senhas a todo instante,
+pensando na dificuldade de criar senhas mais fortes trouxe para o projeto Cifra uma página da Web onde o usuário pode 
+escolher senhas de fácil memorização e torna-las mais fortes realizando o processo de cifra.
+
+##  3. **Como usar**  : book : :open_book:
+Inicialmente escolha uma chave de segurança, é importante guardar esse valor de chave, após basta digitar a senha
+escolhido no campo "digite aqui!" e selecione o botão Cifrar/Decifrar, copie e cole onde para usar uma senha.
+
+
+##  4. **Tecnologias utilizadas**
+-HTML 5
+-CSS 3
+-DOM
+-JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Cifra de César
+## Indice 
+
+1. Prefácio
+2. Projeto
+3. Funcionamento
+4. Considerações finais
 <hr>
 
 ## 1. Prefácio
@@ -23,7 +86,7 @@ substituida por outra que se encontra há um número fixo de posições
 
 Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
-- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+- Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Zs
 - Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 - A letra A será D
 - A palavra CASA será FDVD
@@ -34,9 +97,14 @@ mas a cifra de César muitas vezes pode fazer parte de um sistema
 mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-## 2. Resumo do projeto
+## 2. Projeto
 
-Este projeto foi a minha primeira criação web no bootcamp Laboratória, nela o usuário poderá cifrar e decifrar senhas, o tema foi idealizado trazendo o cotidiado onde há um necessidade de criar logins e senhas a todo instante, pensando na dificuldade de criar senhas fortes e seguras, trouxe para o projeto Cifra uma página Web onde o usuário pode escolher senhas de fácil memorização consideradas fracas, e torna-las fortes realizado o processo de cifragem.  
+Este projeto foi a minha primeira criação web no bootcamp Laboratória :rocket:
+nela o usuário poderá cifrar e decifrar senhas, o tema foi idealizado 
+trazendo o cotidiano onde há uma necessidade de criar logins e senhas 
+a todo instante, pensando na dificuldade de criar senhas fortes e seguras 
+trouxe para o projeto Cifra uma página Web onde o usuário pode escolher senhas
+de fácil memorização consideradas fracas, e torna-las fortes realizando o processo de cifragem.  
 
 
 <!-- O produto foi idealizado pensando em pessoas que tem dificuldade em criar senhas fortes e seguras
@@ -466,7 +534,7 @@ Organização do trabalho:
 
 ## 9. Checklist
 
-Essa seção é para te ajudar a ter um controle do que você precisa completar.
+Este projeto foi a minha primeira criação web no bootcamp Laboratória, nela o usuário poderá cifrar e decifrar senhas, o tema foi idealizado trazendo o cotidiano onde há uma necessidade de criar logins e senhas a todo instante, pensando na dificuldade de criar senhas fortes e seguras trouxe para o projeto Cifra uma página Web onde o usuário pode escolher senhas de fácil memorização consideradas fracas, e torna-las fortes realizando o processo de cifragem. seção é para te ajudar a ter um controle do que você precisa completar.
 
 ### Parte Obrigatória
 

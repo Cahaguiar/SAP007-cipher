@@ -8,14 +8,14 @@ const btnCifrar = document.getElementById("btnCifrar");
 
 const senhaCifrada= document.getElementById("password_cipher");
     
-function codificarButton() {//função para cifrar senha//
-    const offSetvalue= offSet.valueAsNumber;//pegando o valor dentro do input, o AsNumber eu informo que é um número//
-    const senhaParaCifrarvalue= senhaParaCifrar.value;// input.value (pega o valor dentro input)
+function codificarButton() {
+    const offSetvalue= offSet.valueAsNumber;
+    const senhaParaCifrarvalue= senhaParaCifrar.value;
     senhaCifrada.value = cipher.encode(offSetvalue, senhaParaCifrarvalue)
     
 }
 btnCifrar.addEventListener("click", codificarButton);
-   //chamando evento//
+   
 
 
 const offsetdecode= document.getElementById("offset-decode");
@@ -39,9 +39,6 @@ btnDecifrar.addEventListener("click", decodificarButton);
 
 
 
-
-//const offSetvalue= offSet.valueAsNumber//pegando o valor dentro do input, o AsNumber eu informo que é um número//
-    //const senhaParaCifrarvalue= password1.value// input.value (pega o valor dentro input)
 
 
 

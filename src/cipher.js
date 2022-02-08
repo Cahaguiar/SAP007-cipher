@@ -1,21 +1,19 @@
-const cipher = {// ...função cifrar
+const cipher = {
   encode(offSet,senhaParaCifrar){
-  
-
     let quantidadeDeletras= senhaParaCifrar.length;
     let resultadoCifra="";
 
     for(let i =0;i<quantidadeDeletras;i++) {
-      let codigoASC = senhaParaCifrar.charCodeAt(i); //passando a senha para linguagem unicode
+      let codigoASC = senhaParaCifrar.charCodeAt(i); 
       let codigoA= 65;
       let codigoZ= 90;
-      if (codigoASC>=65 && codigoASC <=codigoZ){
+        if (codigoASC>=codigoA && codigoASC <=codigoZ){
       let cifrar= (codigoASC-codigoA +offSet) % 26 + codigoA;
       
       resultadoCifra= resultadoCifra + String.fromCharCode(cifrar)
-      }
+        }
       
-      //resultadoCifra= resultadoCifra + String.fromCharCode(cifrar)
+      
 
     
     }
