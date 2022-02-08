@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Primeiro Projeto Laboratória : foguete : 
 ##  Índice
 1.  Cifra de Cesar - Projeto Escolhido
@@ -69,6 +70,15 @@ escolhido no campo "digite aqui!" e selecione o botão Cifrar/Decifrar, copie e 
 3. Funcionamento
 4. Considerações finais
 <hr>
+=======
+# Cifra de César
+## Indice 
+
+1. Prefácio
+2. Projeto
+3. Como usar
+4. Tecnologias utilizadas
+>>>>>>> f31a201bc09085d40e0ce3015479013e1848f2c3
 
 ## 1. Prefácio
 
@@ -91,12 +101,13 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 - A letra A será D
 - A palavra CASA será FDVD
 
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunicação por si mesma,
-mas a cifra de César muitas vezes pode fazer parte de um sistema
-mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
+## 2. Projeto
+Este projeto foi a minha primeira criação web no bootcamp Laboratória :rocket:, nela o usuário poderá cifrar e decifrar senhas, 
+o tema foi idealizado trazendo o cotidiado onde há um necessidade de criar logins e senhas a todo instante, 
+pensando na dificuldade de criar senhas fortes trouxe para o projeto Cifra uma página Web onde o usuário pode 
+escolher senhas de fácil memorização consideradas fracas, e torna-las mais fortes realizado o processo de cifragem.
 
+<<<<<<< HEAD
 ## 2. Projeto
 
 Este projeto foi a minha primeira criação web no bootcamp Laboratória :rocket:
@@ -111,6 +122,12 @@ de fácil memorização consideradas fracas, e torna-las fortes realizando o pro
 O objetivo do usuário é criar uma senha segura de forma prática.
 o usuário encontra facilidade e segurança para criar uma senha, podendo criar senhas fáceis de lembrar consideradas fracas, porem cifradas se tornam fortes.
 ## Índice
+=======
+## 3. Como usar
+Inicialmente escolha uma chave de segurança, é importante guardar esse valor de chave, após basta digitar a senha escolhida no campo "digite aqui!" e selecionar o botão Cifrar/Decifrar, copie e cole onde for utilizar a senha.
+ 
+
+>>>>>>> f31a201bc09085d40e0ce3015479013e1848f2c3
 
 - [1. Prefácio](#1-prefácio)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
